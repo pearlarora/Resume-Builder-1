@@ -1,0 +1,85 @@
+<!-- login -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/login.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- poppins -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <header>
+
+        <a href="#" id="brand-logo"><img src="img/logo.png" alt="Brand Logo"></a>
+
+        <nav>
+            <a href="#" class="header-links">home</a>
+            <a href="#" class="header-links">developers</a>
+            <a href="www.facebook.com"><button>log in</button></a>
+            <a href="www.facebook.com"><button>sign up</button></a>
+        </nav>
+
+    </header> 
+
+    <!-- section -->
+    <section id="section-1">
+        
+        <!-- left half -->
+        <div id="left-half">
+            
+            <!-- login form -->
+            <form method="POST" action="Login" id="login-form">
+
+                <h3>Log in</h3>
+                
+                <div id="email-id">
+                    <input type="email" placeholder="Enter Email"  id="email" name="email">
+                </div>
+                
+                <div id="password">
+                    <input type="password" placeholder="Enter Password"  id="pass" name="pass">
+                </div>
+                
+                <input type="submit" value="Log in" id="login">
+                
+            </form>
+            
+            <div id="last-line">
+                <h4>Don't have an account? <strong><a href="signup.jsp" id="signup">Sign up</a></strong></h4>
+            </div>
+            
+        </div>
+        
+        
+        <!-- right half -->
+        <div id="right-half">
+            
+            <h1>Welcome back,</h1>
+            <h4>Hope you build something new this time.</h4>
+            
+        </div>
+        
+    </section>
+
+    <footer></footer>
+
+</body>
+
+</html>

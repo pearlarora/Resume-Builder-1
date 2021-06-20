@@ -1,0 +1,14 @@
+/* footer */
+
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    height: 68px;
+    background-color: #F2133C;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

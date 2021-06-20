@@ -1,0 +1,95 @@
+<!-- sign-up -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/signup.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- poppins -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <header>
+
+        <a href="#" id="brand-logo"><img src="img/logo.png" alt="Brand Logo"></a>
+
+        <nav>
+            <a href="#" class="header-links">home</a>
+            <a href="#" class="header-links">developers</a>
+            <a href="www.facebook.com"><button>log in</button></a>
+            <a href="www.facebook.com"><button>sign up</button></a>
+        </nav>
+
+    </header> 
+
+    <section id="section-1">
+        
+        <!-- left half -->
+        <div id="left">
+            
+            <h3>Build a professional resume for yourself...</h3>
+            <h1><span style="color: #F2133C">Create</span> your free account</h1>
+            
+        </div>
+        
+        <!-- right half -->
+        <div id="right">
+            
+            <!-- signup form -->
+            <form method="POST" action="Signup" id="sign-up-form">
+                
+                <div id="first-name">
+                    <input type="text" placeholder="Enter First Name" id="fname" name="fname">
+                </div>
+                
+                <div id="last-name">
+                    <input type="text" placeholder="Enter Last Name"  id="lname" name="lname">
+                </div>
+                
+                <div id="email-id">
+                    <input type="email" placeholder="Enter Email"  id="email" name="email">
+                </div>
+                
+                <div id="phone-no">
+                    <input type="number" placeholder="Enter Contact Number"  id="contact" name="contact">
+                </div>
+                
+                <div id="password">
+                    <input type="password" placeholder="Enter Password"  id="pass" name="pass">
+                </div>
+                
+                <div id="confirm-password">
+                    <input type="password" placeholder="Confirm Password"  id="confirm-pass" name="confirm-pass">
+                </div>
+                
+                <input type="submit" value="Sign up" id="sign-up">
+                
+            </form>
+            
+            <div id="last-line">
+                <h4>Already have an account? <strong><a href="login.jsp" id="login">Log in</a></strong></h4>
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <footer></footer>
+
+</body>

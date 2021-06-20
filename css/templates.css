@@ -1,0 +1,108 @@
+/* templates */
+
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+a:hover{
+    text-decoration: none;
+    color:#F2133C;
+}
+a:visited{
+    text-decoration:none;
+    color:black;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: none;
+    background-color:#2E2E2E;
+    color: white;
+    font-weight:bold;   
+}
+button:hover{
+    cursor: pointer;
+    background-color:#F2133C;
+}
+
+header{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: centre;
+    justify-content:space-between;
+    padding: 15px 120px;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+#brand-logo{
+    align-self: center;
+}
+#brand-logo  img{
+    width: 200px;
+}
+.header-links{
+    font-weight: bold;
+}
+nav a{
+    padding:0 10px ;
+}
+
+/* section - select resume template */
+#select-template div {
+    display: flex;
+}
+#select-template img {
+    height: 450px;
+    border: 1px solid black;
+}
+#select-template img:hover {
+    border-radius: 5px;
+    transition: 0.5s;
+    height: 430px;
+    cursor: pointer;
+}
+
+/* form css */
+input[type=radio] {
+    margin: 27px -19px 25px 25px;
+    z-index: 1;
+}
+input[type=submit] {
+    margin: 10px 0;
+    background-color: #F2133C;
+    border-radius: 50px;
+    border: 1px solid #cfcece;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+label {
+    margin-top: 20px;
+}
+label:hover {
+    color: #F2133C;
+    font-weight: bolder;
+}
+#submit {
+    float: right;
+    margin-right: 20px;
+    color: white;
+}
+#submit:hover {
+    cursor: pointer;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    height: 68px;
+    background-color: #F2133C;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
